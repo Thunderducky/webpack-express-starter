@@ -11,7 +11,8 @@
     "webpack:dev": "webpack --mode:development -w",
     "build": "npx webpack:production",
     "heroku-postbuild": "npm run build",
-    "test": "jest client/src/"
+    "test": "jest client/src/",
+    "lint": "eslint client/src"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
